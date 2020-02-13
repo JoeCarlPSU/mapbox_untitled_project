@@ -1,0 +1,22 @@
+{
+  "name": "mapbox",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoeCarlPSU/mapbox_untitled_project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JoeCarlPSU/mapbox_untitled_project/issues"
+  },
+  "homepage": "https://github.com/JoeCarlPSU/mapbox_untitled_project#readme",
+  "dependencies": {
+    "bootstrap": "^4.4.1"
+  }
+}

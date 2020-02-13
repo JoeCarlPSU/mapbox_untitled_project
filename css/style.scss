@@ -1,0 +1,19 @@
+// $theme-colors: (
+//   "primary": #004445,
+//   "danger": #feb70d,
+//   "success": #6f42c1,
+//   "info": #dc3545,
+//   "secondary": #17a2b8,
+//   "danger-light": #ffffc0
+// );
+
+// $primary: map-get(
+//   $map: $theme-colors,
+//   $key: primary
+// );
+// $secondary: map-get(
+//   $map: $theme-colors,
+//   $key: danger
+// );
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss"

@@ -18,4 +18,36 @@
 
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
 
-#map { position: absolute; top: 0; bottom: 0; width: 100%; }
+*{
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100vh;
+}
+
+// .tab-pane{
+//     height: 56px;
+// }
+
+.map {
+    height: calc(100vh - 56px - 38px - 56px);
+    width: 100%;
+  }
+
+/* Developing for iphone - need to show collapsed content on mobile */
+@media (min-width: 768px) {
+.collapse.dont-collapse-sm {
+    display: block;
+    height: 56px;
+    visibility: visible;
+}
+}
+
+  /* Tools */
+  .map-tools{
+      cursor: pointer;
+  }
+  .map-tools:hover{
+    color: orange;
+  }
